@@ -1,5 +1,0 @@
-touch /root/yourfile.sh
-ls -la /root
-nano /root/yourfile.sh
-chmod +x /root/yourfile.sh
-./yourfile.sh
