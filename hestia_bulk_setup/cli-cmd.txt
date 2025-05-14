@@ -1,3 +1,7 @@
+
+=============================================================================================
+
+
 /home/linksnova007/
 touch /root/yourfile.sh
 nano /root/yourfile.sh
@@ -5,3 +9,153 @@ nano /root/yourfile.sh
 chmod +x /home/linksnova007/tmp/add-hestia-user.sh
 ls -la /home/linksnova007
 bash /home/linksnova007/tmp/sh-test.sh
+
+
+=============================================================================================
+
+
+user file path /home/linksnova007/file.sh
+
+1) bash /home/linksnova007/file.sh
+2) ls -la /home/linksnova007/
+
+
+=============================================================================================
+
+
+Here’s a list of the **most commonly used and essential Linux commands**, especially useful if you want to work professionally with Linux — whether in system administration, development, DevOps, or server management.
+
+---
+
+## ✅ **Top Essential Linux Commands (With Descriptions)**
+
+### 🔹 **File & Directory Management**
+
+| Command                    | Description                                  |
+| -------------------------- | -------------------------------------------- |
+| `ls -la`                   | List all files including hidden with details |
+| `cd /path/to/dir`          | Change directory                             |
+| `pwd`                      | Print current working directory              |
+| `mkdir new_folder`         | Create a new directory                       |
+| `rm filename`              | Delete a file                                |
+| `rm -r foldername`         | Delete a folder and its contents             |
+| `cp source dest`           | Copy a file                                  |
+| `mv source dest`           | Move/rename a file                           |
+| `touch filename`           | Create an empty file                         |
+| `find /path -name "*.txt"` | Find files by name pattern                   |
+
+---
+
+### 🔹 **File Viewing & Editing**
+
+| Command               | Description                           |
+| --------------------- | ------------------------------------- |
+| `cat file.txt`        | Display file contents                 |
+| `less file.txt`       | View file (scrollable)                |
+| `head -n 10 file.txt` | Show first 10 lines                   |
+| `tail -n 10 file.txt` | Show last 10 lines                    |
+| `nano file.txt`       | Edit file using Nano (simple editor)  |
+| `vim file.txt`        | Edit file using Vim (advanced editor) |
+
+---
+
+### 🔹 **System Information**
+
+| Command    | Description                               |
+| ---------- | ----------------------------------------- |
+| `top`      | Live system processes                     |
+| `htop`     | Better version of `top` (if installed)    |
+| `df -h`    | Disk space usage                          |
+| `du -sh *` | Directory sizes in current path           |
+| `free -h`  | Show memory usage                         |
+| `uname -a` | Kernel and system info                    |
+| `uptime`   | Show how long the system has been running |
+| `whoami`   | Current user                              |
+
+---
+
+### 🔹 **User & Permission Management**
+
+| Command                 | Description                |
+| ----------------------- | -------------------------- |
+| `chmod +x file.sh`      | Make a file executable     |
+| `chown user:group file` | Change file ownership      |
+| `adduser username`      | Add a new user             |
+| `passwd username`       | Change user password       |
+| `su username`           | Switch user                |
+| `sudo command`          | Run a command as superuser |
+
+---
+
+### 🔹 **Networking**
+
+| Command              | Description                  |
+| -------------------- | ---------------------------- |
+| `ping google.com`    | Check network connectivity   |
+| `curl example.com`   | Fetch webpage contents       |
+| `wget file_url`      | Download files               |
+| `ifconfig` or `ip a` | Show network interfaces      |
+| `netstat -tulnp`     | Show open ports and services |
+| `ss -tuln`           | Faster version of netstat    |
+
+---
+
+### 🔹 **Package Management (Ubuntu/Debian-based)**
+
+| Command                    | Description                |
+| -------------------------- | -------------------------- |
+| `sudo apt update`          | Update package index       |
+| `sudo apt upgrade`         | Upgrade installed packages |
+| `sudo apt install package` | Install a package          |
+| `sudo apt remove package`  | Remove a package           |
+| `dpkg -i package.deb`      | Install a .deb package     |
+
+---
+
+### 🔹 **Process & Job Management**
+
+| Command                | Description                        |
+| ---------------------- | ---------------------------------- |
+| `ps aux`               | List running processes             |
+| `kill PID`             | Kill a process by PID              |
+| `killall process_name` | Kill all processes with a name     |
+| `&`                    | Run process in background          |
+| `jobs`                 | List background jobs               |
+| `fg`                   | Bring background job to foreground |
+
+---
+
+### 🔹 **Archiving & Compression**
+
+| Command                        | Description              |
+| ------------------------------ | ------------------------ |
+| `tar -czf file.tar.gz folder/` | Compress a folder        |
+| `tar -xzf file.tar.gz`         | Extract a `.tar.gz` file |
+| `zip -r file.zip folder/`      | Create zip file          |
+| `unzip file.zip`               | Extract zip file         |
+
+---
+
+### 🔹 **Shell Scripting**
+
+| Command Example  | Description                     |
+| ---------------- | ------------------------------- |
+| `bash script.sh` | Run a shell script              |
+| `./script.sh`    | Run a script (needs `chmod +x`) |
+| `sh script.sh`   | Run with default shell          |
+
+---
+
+## 🏁 Pro Tip: Start Practicing!
+
+To become truly professional:
+
+* Use **`man command`** to read the manual (e.g., `man ls`)
+* Try creating automation with scripts
+* Learn to use `cron` for scheduled jobs
+* Work with logs in `/var/log/`
+
+---
+
+Would you like a printable PDF or cheatsheet version of this list?
+
