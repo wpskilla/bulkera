@@ -1,0 +1,7 @@
+/home/linksnova007/
+touch /root/yourfile.sh
+nano /root/yourfile.sh
+./yourfile.sh
+chmod +x /home/linksnova007/tmp/add-hestia-user.sh
+ls -la /home/linksnova007
+bash /home/linksnova007/tmp/sh-test.sh
