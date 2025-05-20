@@ -1,0 +1,61 @@
+Checking DNS prerequisites...
+WARNING: DNS record exists for blindfitting.uk
+WARNING: DNS record exists for blockpavingcompany.co.uk
+WARNING: DNS record exists for boiler-servicing.uk
+WARNING: DNS record exists for brick-cleaning.uk
+WARNING: DNS record exists for builderscleaningservices.uk
+WARNING: DNS record exists for builderswasteremoval.uk
+WARNING: DNS record exists for buildingsnagging.uk
+WARNING: DNS record exists for bulky-waste-collection.co.uk
+WARNING: DNS record exists for afterbuilderscleanliverpool.co.uk
+WARNING: DNS record exists for afterbuilderscleanlondon.uk
+WARNING: DNS record exists for afterbuilderscleanluton.co.uk
+WARNING: DNS record exists for afterbuilderscleanmanchester.co.uk
+WARNING: DNS record exists for afterbuilderscleanmiltonkeynes.co.uk
+WARNING: DNS record exists for afterbuilderscleannewport.co.uk
+WARNING: DNS record exists for afterbuilderscleannorthampton.co.uk
+WARNING: DNS record exists for afterbuilderscleannottingham.co.uk
+WARNING: DNS record exists for afterbuilderscleanportsmouth.co.uk
+WARNING: DNS record exists for afterbuilderscleanpreston.co.uk
+WARNING: DNS record exists for afterbuilderscleanreading.co.uk
+Starting domain additions...
+Processing: blindfitting.uk
+SUCCESS: blindfitting.uk created
+Processing: blockpavingcompany.co.uk
+SUCCESS: blockpavingcompany.co.uk created
+Processing: boiler-servicing.uk
+SUCCESS: boiler-servicing.uk created
+Processing: brick-cleaning.uk
+SUCCESS: brick-cleaning.uk created
+Processing: builderscleaningservices.uk
+SUCCESS: builderscleaningservices.uk created
+Processing: builderswasteremoval.uk
+SUCCESS: builderswasteremoval.uk created
+Processing: buildingsnagging.uk
+SUCCESS: buildingsnagging.uk created
+Processing: bulky-waste-collection.co.uk
+SUCCESS: bulky-waste-collection.co.uk created
+Processing: afterbuilderscleanliverpool.co.uk
+SUCCESS: afterbuilderscleanliverpool.co.uk created
+Processing: afterbuilderscleanlondon.uk
+SUCCESS: afterbuilderscleanlondon.uk created
+Processing: afterbuilderscleanluton.co.uk
+SUCCESS: afterbuilderscleanluton.co.uk created
+Processing: afterbuilderscleanmanchester.co.uk
+SUCCESS: afterbuilderscleanmanchester.co.uk created
+Processing: afterbuilderscleanmiltonkeynes.co.uk
+SUCCESS: afterbuilderscleanmiltonkeynes.co.uk created
+Processing: afterbuilderscleannewport.co.uk
+SUCCESS: afterbuilderscleannewport.co.uk created
+Processing: afterbuilderscleannorthampton.co.uk
+SUCCESS: afterbuilderscleannorthampton.co.uk created
+Processing: afterbuilderscleannottingham.co.uk
+SUCCESS: afterbuilderscleannottingham.co.uk created
+Processing: afterbuilderscleanportsmouth.co.uk
+SUCCESS: afterbuilderscleanportsmouth.co.uk created
+Processing: afterbuilderscleanpreston.co.uk
+SUCCESS: afterbuilderscleanpreston.co.uk created
+Processing: afterbuilderscleanreading.co.uk
+SUCCESS: afterbuilderscleanreading.co.uk created
+Processing: afterbuilderscleansheffield.co.uk
+SUCCESS: afterbuilderscleansheffield.co.uk created
