@@ -1,0 +1,81 @@
+
+
+Topic = [ Updating DNS Records To CloudFlare In Bulk ]
+
+
+
+---------------------------------------------------
+
+
+
+Getting Mail DNS Records From Server Side.
+Update All DNS Records On CloudFlare.
+
+
+1) getting all domains DKIM for all domains existings on the hestia cp.
+
+
+---------------------------------------------------
+
+
+
+greenhouseremoval.uk
+gutter-cleaners.uk
+gutterinstallers.co.uk
+gutter-repair.uk
+gutterunblocking.uk
+hardwoodfloorsanding.uk
+hippobagcollection.co.uk
+hoarderhouseclearance.co.uk
+hoardingclean.co.uk
+hottubcleaning.uk
+
+
+
+---------------------------------------------------
+
+
+
+TXT DOMAIN v=spf1 a mx ip4:46.202.194.99 -all
+TXT _dmarc v=DMARC1; p=quarantine; pct=100
+TXT mail._domainkey v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyh4VO5nTtif3ozPzbsa4WZgP8a7mlAaD/ggT5PnF5lG4OBfXHHFQ0g723O1oZ+yhE9xvN30FOygjpQwgdOyfWDaAGa1tPQtw0Vi8szvl2nqW99G6LUWajubXbuFj3ojMEO6yU1oGorxNpNnt7VWTqSVjsfk1Vshb3ccJDEYUFtXLYSwszoeCUwmuC1Avjv4Zqretu5PNGXTotHcyqnoF32nHvALrEWH8WjElEoTbQVDeby9eXTnbXUnp1da5IMkkHRQvHBFQxYPFA6bzr1V0KEEfQUaIm7tFFt5/8dtE0UVc0d/mfup17fviPFiX0yGNxlYXrN5wwidStgqhZN0uZQIDAQAB
+TXT _domainkey t=y; o=~;
+
+
+
+TXT mail._domainkey v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxYsIjSTOp3GRLsl8//5S2UIsx5yZNKz+2/LiNJRX1Vd+1VFotEUWCxyGIOEpXV9JOlkTouC864LnepAC0JWwB6rzbK4euhpL4UtHFdknhbkkOHEUFoqMDMTVyO+rxen3kzCC4dWayW+woQptMHhu9erJwc/abpSv8emY63A4ec6aMc5n576B2EjLDsDXRdKqwjMuidbfaBFu0/BTntV+bzECN2EvHtyvsNhWehCYbhl7dXe7kD8Oaix6WsCV5ZpbGeWR5M6bM7YdjuhsDN7DOV1rl6xOoK/7cduYol6zLwGj/yk9D0h8DO+uR8DN0XxfRwFOJzPV+6lKZ1EnCEMAZQIDAQAB
+
+
+---------------------------------------------------
+
+
+Record	Type	Priority	TTL	IP or Value
+
+mail.aerial-installation.co.uk A		14400	46.202.194.99
+
+webmail.aerial-installation.co.uk A		14400	46.202.194.99
+
+aerial-installation.co.uk MX	10	14400	mail.aerial-installation.co.uk.
+
+aerial-installation.co.uk TXT		14400	v=spf1 a mx ip4:46.202.194.99 -all
+
+_dmarc TXT		14400	v=DMARC1; p=quarantine; pct=100
+
+mail._domainkey TXT		3600	v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyh4VO5nTtif3ozPzbsa4WZgP8a7mlAaD/ggT5PnF5lG4OBfXHHFQ0g723O1oZ+yhE9xvN30FOygjpQwgdOyfWDaAGa1tPQtw0Vi8szvl2nqW99G6LUWajubXbuFj3ojMEO6yU1oGorxNpNnt7VWTqSVjsfk1Vshb3ccJDEYUFtXLYSwszoeCUwmuC1Avjv4Zqretu5PNGXTotHcyqnoF32nHvALrEWH8WjElEoTbQVDeby9eXTnbXUnp1da5IMkkHRQvHBFQxYPFA6bzr1V0KEEfQUaIm7tFFt5/8dtE0UVc0d/mfup17fviPFiX0yGNxlYXrN5wwidStgqhZN0uZQIDAQAB
+
+_domainkey TXT		3600	t=y; o=~;
+
+
+---------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
